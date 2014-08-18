@@ -98,8 +98,6 @@ UIView *view;
     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     _user_id = appDelegate.user_id;
     
-    _user_id = @"1";
-    
     self.navigationItem.title = @"Members";
     
     NSString *version = [[UIDevice currentDevice] systemVersion];
